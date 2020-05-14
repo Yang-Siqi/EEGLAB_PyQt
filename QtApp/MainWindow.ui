@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>532</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ComplexityLAB</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>532</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuImport_data">
+     <property name="title">
+      <string>Import data</string>
+     </property>
+     <addaction name="actEuro_EDF_file"/>
+    </widget>
+    <addaction name="menuImport_data"/>
+    <addaction name="actFile_Import_epoch_info"/>
+    <addaction name="actFile_Import_event_info"/>
+    <addaction name="actFile_Export"/>
+    <addaction name="separator"/>
+    <addaction name="actFile_Open"/>
+    <addaction name="separator"/>
+    <addaction name="actFile_Save"/>
+    <addaction name="actFile_Save_As"/>
+    <addaction name="separator"/>
+    <addaction name="actFile_Quit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actEdit_Select_Data"/>
+    <addaction name="actEdit_Select_epochs_events"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actTools_Change_Rate"/>
+    <addaction name="actTools_Filter_the_data"/>
+    <addaction name="actTools_Run_ICA"/>
+   </widget>
+   <widget class="QMenu" name="menuPlot">
+    <property name="title">
+     <string>Plot</string>
+    </property>
+    <addaction name="actPlot_Data_statistics"/>
+    <addaction name="actPlot_Time_F_transforms"/>
+   </widget>
+   <widget class="QMenu" name="menuDatasets">
+    <property name="title">
+     <string>Datasets</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actHelp_About_ComplexityLAB"/>
+    <addaction name="actHelp_Contact_us"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuPlot"/>
+   <addaction name="menuDatasets"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actFile_Import_epoch_info">
+   <property name="text">
+    <string>Import epoch info</string>
+   </property>
+  </action>
+  <action name="actFile_Import_event_info">
+   <property name="text">
+    <string>Import event info</string>
+   </property>
+  </action>
+  <action name="actFile_Open">
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actFile_Save">
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actFile_Save_As">
+   <property name="text">
+    <string>Save As</string>
+   </property>
+   <property name="toolTip">
+    <string>Save As...</string>
+   </property>
+  </action>
+  <action name="actFile_Quit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actFile_Export">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actEdit_Select_Data">
+   <property name="text">
+    <string>Select Data</string>
+   </property>
+  </action>
+  <action name="actEdit_Select_epochs_events">
+   <property name="text">
+    <string>Select epochs/events</string>
+   </property>
+  </action>
+  <action name="actTools_Change_Rate">
+   <property name="text">
+    <string>Changing sampling rate</string>
+   </property>
+  </action>
+  <action name="actTools_Filter_the_data">
+   <property name="text">
+    <string>Filter the data</string>
+   </property>
+  </action>
+  <action name="actTools_Run_ICA">
+   <property name="text">
+    <string>Run ICA</string>
+   </property>
+  </action>
+  <action name="actPlot_Data_statistics">
+   <property name="text">
+    <string>Data statistics</string>
+   </property>
+  </action>
+  <action name="actPlot_Time_F_transforms">
+   <property name="text">
+    <string>Time-frequency transforms</string>
+   </property>
+  </action>
+  <action name="actHelp_About_ComplexityLAB">
+   <property name="text">
+    <string>About ComplexityLAB</string>
+   </property>
+  </action>
+  <action name="actHelp_Contact_us">
+   <property name="text">
+    <string>Contact us</string>
+   </property>
+  </action>
+  <action name="actEuro_EDF_file">
+   <property name="text">
+    <string>From European Data Format.EDF file</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actFile_Quit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

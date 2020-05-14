@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EEGLAB</class>
+ <widget class="QMainWindow" name="EEGLAB">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="9,1">
+    <property name="spacing">
+     <number>6</number>
+    </property>
+    <item>
+     <widget class="QmyFigureCanvas" name="widget" native="true"/>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="stream_left">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/icons/images/610.bmp</normaloff>:/icons/images/610.bmp</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="stop">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/icons/images/624.bmp</normaloff>:/icons/images/624.bmp</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="stream_continue">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/icons/images/620.bmp</normaloff>:/icons/images/620.bmp</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="stream_right">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/icons/images/612.bmp</normaloff>:/icons/images/612.bmp</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>781</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionOpen_stream"/>
+    <addaction name="separator"/>
+    <addaction name="actionStart_Video"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_as"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuSignals">
+    <property name="title">
+     <string>Signals</string>
+    </property>
+    <addaction name="actionProperties"/>
+    <addaction name="actionAdd"/>
+   </widget>
+   <widget class="QMenu" name="menuFilter">
+    <property name="title">
+     <string>Filter</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionAdjust"/>
+    <addaction name="actionRemove_all"/>
+   </widget>
+   <widget class="QMenu" name="menuTimesync">
+    <property name="title">
+     <string>Timesync</string>
+    </property>
+    <addaction name="actionGo_to_start_of_file"/>
+    <addaction name="actionGo_to_end_of_file"/>
+    <addaction name="actionJump_to"/>
+   </widget>
+   <widget class="QMenu" name="menuAnnotation">
+    <property name="title">
+     <string>Annotation</string>
+    </property>
+    <addaction name="actionAnnotations"/>
+    <addaction name="actionAnnotation_editor"/>
+   </widget>
+   <widget class="QMenu" name="menushow">
+    <property name="title">
+     <string>show</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionPower_Spectrum"/>
+    <addaction name="actionPhase"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_EEGLAB"/>
+    <addaction name="actionVideos"/>
+    <addaction name="actionTutor"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAnnotation"/>
+   <addaction name="menushow"/>
+   <addaction name="menuSignals"/>
+   <addaction name="menuFilter"/>
+   <addaction name="menuTimesync"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionOpen_stream">
+   <property name="text">
+    <string>Open stream</string>
+   </property>
+  </action>
+  <action name="actionStart_Video">
+   <property name="text">
+    <string>Start Video</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="text">
+    <string>Save as</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionProperties">
+   <property name="text">
+    <string>Properties</string>
+   </property>
+  </action>
+  <action name="actionAdd">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionAdjust">
+   <property name="text">
+    <string>Adjust</string>
+   </property>
+  </action>
+  <action name="actionRemove_all">
+   <property name="text">
+    <string>Remove all</string>
+   </property>
+  </action>
+  <action name="actionGo_to_start_of_file">
+   <property name="text">
+    <string>Go to start of file</string>
+   </property>
+  </action>
+  <action name="actionGo_to_end_of_file">
+   <property name="text">
+    <string>Go to end of file</string>
+   </property>
+  </action>
+  <action name="actionJump_to">
+   <property name="text">
+    <string>Jump to</string>
+   </property>
+  </action>
+  <action name="actionAnnotations">
+   <property name="text">
+    <string>Annotations</string>
+   </property>
+  </action>
+  <action name="actionAnnotation_editor">
+   <property name="text">
+    <string>Annotation editor</string>
+   </property>
+  </action>
+  <action name="actionPower_Spectrum">
+   <property name="text">
+    <string>Power Spectrum</string>
+   </property>
+  </action>
+  <action name="actionPhase">
+   <property name="text">
+    <string>Phase</string>
+   </property>
+  </action>
+  <action name="actionAbout_EEGLAB">
+   <property name="text">
+    <string>About EEGLAB</string>
+   </property>
+  </action>
+  <action name="actionVideos">
+   <property name="text">
+    <string>Videos </string>
+   </property>
+  </action>
+  <action name="actionTutor">
+   <property name="text">
+    <string>Tutor</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QmyFigureCanvas</class>
+   <extends>QWidget</extends>
+   <header location="global">myFigureCanvas.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionExit</sender>
+   <signal>triggered()</signal>
+   <receiver>EEGLAB</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

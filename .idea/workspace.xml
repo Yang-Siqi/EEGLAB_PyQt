@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b13852da-d4b5-4228-8c92-9376f845f743" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UNaf6amDVnaEDgItSxO6Y5N6Ft" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="E:/GithubDownload/Rectified-Cross-Entropy-and-Upper-Transition-Loss-for-Weakly-Supervised-Whole-Slide-Image-Classifier-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RunManager" selected="Python.appMain">
+    <configuration name="UiAAA_EEGLAB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EEGLAB_PyQt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UiAAA_EEGLAB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="appMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EEGLAB_PyQt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appMain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myEEGLAB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EEGLAB_PyQt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myEEGLAB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myMainWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EEGLAB_PyQt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myMainWindow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readEDF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EEGLAB_PyQt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/readEDF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.UiAAA_EEGLAB" />
+      <item itemvalue="Python.appMain" />
+      <item itemvalue="Python.myEEGLAB" />
+      <item itemvalue="Python.myMainWindow" />
+      <item itemvalue="Python.readEDF" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.appMain" />
+        <item itemvalue="Python.myEEGLAB" />
+        <item itemvalue="Python.UiAAA_EEGLAB" />
+        <item itemvalue="Python.readEDF" />
+        <item itemvalue="Python.myMainWindow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b13852da-d4b5-4228-8c92-9376f845f743" name="Default Changelist" comment="" />
+      <created>1575199606710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575199606710</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Vim_Emulation" timestamp="1579700977211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Vim_Emulation/0.0.1536.824@0.0.1536.824" timestamp="1579700977211" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579700765359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579700765359" />
+    <state x="899" y="134" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582424393557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="899" y="134" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1582424393557" />
+    <state x="882" y="259" key="#com.intellij.tools.ToolEditorDialog" timestamp="1582424426846">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="882" y="259" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1582424426846" />
+    <state x="797" y="153" key="FileChooserDialogImpl" timestamp="1584536606754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="797" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584536606754" />
+    <state width="1515" height="241" key="GridCell.Tab.0.bottom" timestamp="1583156337599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583156337599" />
+    <state width="1515" height="241" key="GridCell.Tab.0.center" timestamp="1583156337598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="241" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583156337598" />
+    <state width="1515" height="241" key="GridCell.Tab.0.left" timestamp="1583156337598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="241" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583156337598" />
+    <state width="1515" height="241" key="GridCell.Tab.0.right" timestamp="1583156337598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="241" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583156337598" />
+    <state x="315" y="84" key="SettingsEditor" timestamp="1582424456085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="315" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582424456085" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584536488580">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584536488580" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583156736131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583156736131" />
+  </component>
+</project>
